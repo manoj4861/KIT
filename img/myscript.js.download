@@ -1,0 +1,793 @@
+function notifyscroll(){
+        var str=' \n\
+ <marquee scrollamount="5" >\n\
+ <a href="circulars/notify.pdf">\n\
+<span style="font-size:14pt;font-weight:bold;color:navy;text-decoration:none">\n\
+ </span>\n\
+ <span style="font-size:14pt;font-weight:bold;color:maroon;text-decoration:none">\n\
+Change of Branch Notification is made by VTU on 16-09-2020. Students are informed to apply within 3 days of the notification.\n\
+</span>   \n\
+</a> \n\
+<span style="font-size:14pt;font-weight:bold;color:navy;text-decoration:none">\n\
+ College Admission:</span>\n\
+ <span style="font-size:14pt;font-weight:bold;color:maroon;text-decoration:none">\n\
+Students of 3<sup>rd</sup>, 5<sup>th</sup> and 7<sup>th</sup> B.E. and 3<sup>rd</sup> MBA are instructed to complete the admission process and pay the Fee within 20<sup>th</sup> SEPTEMBER 2020 without fail for the current Semester.</span>    \n\
+</marquee>\n\
+        \n\ ';
+    document.write(str); 
+        
+}
+function activities(path){
+     var str=' \n\
+    <table class="scroller1" >\n\
+<tr>\n\
+        <td valign="center" align="center" width="25%" >\n\
+            <table class="eventtable1" cellpadding=0 cellspacing=0 width="100%" >\n\
+                <tr><td>\n\
+                <table>\n\
+                    <tr><td style="padding-left:10px;padding-top:10px;">\n\
+                        <span style="color:maroon;border-bottom:2px green solid;font-size:14pt;font-weight:bold;">\n\
+                        VTU Circulars\n\
+                        </span>\n\
+                    </td></tr>\n\
+                </table><br>\n\
+                <marquee style="height:80%;" direction="up" Scrollamount="2" >\n\
+                <table>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"><a style="color:indigo;" href="circulars/notify.pdf">Change of Branch Notification is made by VTU on 16-09-2020. Students are informed to apply within 3 days of the notification.</a></td></tr>\n\\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"><a style="color:indigo;" href="circulars/vtuext.pdf">Extension for online examination form filling</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtusub.pdf">Convation Application submission</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtuconv.pdf">Convation Application</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtures.pdf">Rescheduling of few B.E 2018 scheme (Arrear subjects) examinations</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/MTECH.pdf">MTECH Examination Timetable</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/BE.pdf">BE Examination Timetable</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/MBA.pdf">MBA Examination Timetable</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/CIRCULAR.pdf">Examination timetable circular</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtu3.pdf">AIU-CII Smart Manager programme for Graduates</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtu1.pdf">Conduct of Examination</a></td></tr>\n\
+                <tr><td style="text-indent:14px;font-size:12pt;color:indigo;font-weight:bold;"> <a style="color:indigo;" href="circulars/vtu2.pdf">Examination Time Table-2020</a></td></tr>\n\
+                </table>\n\
+                </marquee>\n\
+                </td></tr></table>\n\
+        </td>\n\
+<td width="30%" align="center">\n\
+    <table class="eventtable1">\n\
+        <tr><td align="center" >\n\
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">\n\
+  <div class="carousel-inner">\n\
+    <div class="carousel-item active">\n\
+      <img class="d-block w-100" src="placement/2020-1.jpg" alt="">\n\
+    </div>\n\
+  </div>\n\
+</div>\n\
+    </td></tr>\n\
+    </table>\n\
+  \n\
+</td>\n\
+<td width="30%">\n\
+    <table class="eventtable1">\n\
+        <tr><td align="center" >\n\
+     <a href="'+path+'admission/banner.jpg"> \n\
+            <img src="'+path+'admission/thumb/banner.jpg?v=1" width="500" height="330"  />\n\
+        </a>\n\
+    </td></tr>\n\
+    </table>\n\  \n\
+</td>\n\
+<td width="15%"></td>\n\
+</tr></table>\n\
+';
+document.write(str);
+}
+function border() {
+    var str=' \n\
+\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0"> \n\
+    <tr style="background:navy;height: 10px;"><td colspan="2"></td></tr> \n\
+    <tr style="background:lightblue;height: 5px;"><tdcolspan="2"></td></tr>\n\
+</table>\n\
+\n\
+';   
+document.write(str);    
+}
+function pagetitle(path){
+        var str=' \n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0">    \n\
+    <tr>\n\
+        <td style="background-color:#28a7e9;width:1%;border-top-right-radius: 100%; border-bottom-right-radius: 100%;"> </td>\n\
+        <td height="100" width="10%"> \n\
+            <a href="'+path+'index.htm">&nbsp;&nbsp;\n\
+                <img src="'+path+'images/logo.png" width="125" height="130" border="0">\n\
+            </a>\n\
+        </td>\n\
+        <td valign="center" width="65%" align="left">\n\
+            <p style="text-align:left;">\n\
+                <span class="name style45">Kalpataru Institute of Technology </span><br>\n\
+                <span class="text_inside1">Approved by AICTE, New Delhi, Affiliated to VTU Belagavi,<br/> \n\
+                <span class="text_inside1">N.H 206,Tiptur-572201</span>\n\
+                </p>\n\
+        </td>\n\
+        <td width="25%">\n\
+<table>\n\
+<tr>\n\
+<th><span style="font-size:14px;color:maroon;">Timetable for Online classes</span></th>\n\
+</tr>\n\
+<tr><td><a href="'+path+'timetable/mba.pdf"><span style="font-size:14px;color:navy;">Master for Business Administration</span></a></td></tr>\n\
+<tr><td><a href="'+path+'timetable/ece.pdf"><span style="font-size:14px;color:navy;">Electronics and Communication Engineering</span></a></td></tr>\n\
+<tr><td><a href="'+path+'timetable/ise.pdf"><span style="font-size:14px;color:navy;">Information Science and Engineering</span></a></td></tr>\n\
+<tr><td><a href="'+path+'timetable/cse.pdf"><span style="font-size:14px;color:navy;">Computer Science and Engineering</span></a></td></tr>\n\
+<tr><td><a href="'+path+'timetable/mech.pdf"><span style="font-size:14px;color:navy;">Mechanical engineering</span></a></td></tr>\n\
+<tr><td><a href="'+path+'timetable/maths.pdf"><span style="font-size:14px;color:navy;">Mathematics</span></a></td></tr>\n\
+\n\
+</table>\n\
+     </td>\n\
+    </tr>\n\
+</table>\n\
+\n\
+';
+document.write(str);     
+}
+
+function pagetitlerp(path){
+        var str=' \n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0">    \n\
+    <tr>\n\
+        <td style="background-color:#28a7e9;width:1%;border-top-right-radius:140%;"> </td>\n\
+        <td height="150" width="10%"> \n\
+            <a href="'+path+'index.htm">&nbsp;&nbsp;\n\
+                <img src="'+path+'images/logo.png" width="125" height="130" border="0">\n\
+            </a>\n\
+        </td>\n\
+        <td valign="center" width="50%" align="left">\n\
+            <p style="text-align:center;">\n\
+                <span class="name style45">Kalpataru Institute of Technology </span><br>\n\
+                <span class="text_inside1">Approved by AICTE, New Delhi, Affiliated to VTU Belagavi,<br/> \n\
+                <span class="text_inside1">N.H 206,Tiptur-572201</span>\n\
+                </p>\n\
+        </td>\n\
+<td valign="center" width="10%" align="justify">&nbsp;&nbsp;\n\
+</td>\n\
+<td style="background-color:#28a7e9;width:1%;border-top-left-radius:140%;">   </td>\n\
+      </tr>\n\
+</table>\n\
+\n\
+';
+document.write(str);     
+}
+function companyscroll(path){
+        var str=' \n\
+        <table  width="100%" border="0" cellpadding="0" cellspacing="0" >\n\
+          <tr><td>\n\    \n\
+       <marquee scrollamount="10" style="background-color:cadetblue;text-align:center;" >\n\
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" >\n\
+          <tr><td class="companyscroll"  >\n\
+            <img src="'+path+'placement/companyimages/0.jpg" width="165" height="117"  alt=""/>\n\
+            <img src="'+path+'placement/companyimages/1.jpg" width="165" height="117"  alt=""/>\n\
+            <img src="'+path+'placement/companyimages/2.jpg" width="165" height="117"  alt=""/>\n\
+            <img src="'+path+'placement/companyimages/3.jpg" width="165" height="117"  alt=""/>\n\
+            <img src="'+path+'placement/companyimages/4.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/5.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/6.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/7.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/8.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/9.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/10.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/11.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/12.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/13.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/14.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/15.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/16.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/17.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/18.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/19.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/20.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/21.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/22.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/23.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/29.jpg" width="300" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/30.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/31.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/32.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/24.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/25.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/26.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/27.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/28.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/33.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/34.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/35.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/36.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/37.jpg" width="300" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/38.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/39.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/40.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/41.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/42.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/43.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/44.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/45.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/46.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/47.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/48.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/49.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/50.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/51.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/52.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/53.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/54.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/55.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/56.jpg" width="165" height="117" alt=""/>\n\
+            <img src="'+path+'placement/companyimages/57.jpg" width="165" height="117" alt=""/>\n\
+\n\
+         </td></tr></table>\n\
+</marquee>\n\
+</td></tr></table>\n\
+        ';   
+document.write(str); 
+}
+function mainmenu(path) {
+    var str=' \n\
+<table id="tableid" cellpadding="0" cellspacing="0" style="background:lightpink;"  width="100%">\n\
+    <tr>\n\
+   <td width="100%" valign="center" class="text"> \n\
+      <div id="myslidemenu" class="jqueryslidemenu">\n\
+      <ul >\n\
+        <li><a href="'+path+'index.htm" >Home</a> </li>\n\
+        <li><a href="#">About us <i class="fa fa-chevron-circle-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'about-us.html">About us</a></li> \n\
+            <li><a href="'+path+'principal-message.html">Principal Message</a></li> \n\
+            <li><a href="'+path+'management.htm">Management</a> </li> \n\
+            <li><a href="'+path+'mission-vision.html">Mission & Vision</a></li> \n\
+            <li><a href="'+path+'video.html">Campus Tour</a></li>\n\
+            <li><a href="'+path+'pdf/mandatory.pdf">Mandatory Disclosure</a></li>\n\
+            <li><a href="'+path+'contact.html">Contact Us</a></li>\n\
+          </ul> \n\
+        </li>\n\
+        <li><a href="#">Academics <i class="fa fa-angle-double-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'admission.htm">Admission</a></li>\n\
+            <li><a href="'+path+'programmes.htm">Programmes</a> </li>\n\
+            <li><a href="'+path+'Fees.html">Fee Structure 2019</a></li>\n\
+            <li><a href="'+path+'circular.html">Circulars</a></li>\n\
+            <li><a href="scholarship.html">State Scholarship </a></li>\n\
+          </ul>\n\
+        </li>\n\
+        <li><a href="#">Departments  <i class="fa fa-arrow-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'computer-science-engineering.htm">Computer Science & Engineering</a></li>\n\
+            <li><a href="'+path+'information-science-engineering.htm">Information\n\ Science & Engineering</a> </li> \n\
+            <li><a href="'+path+'mechanical-engineering.htm">Mechanical Engineering </a></li>\n\
+            <li><a href="'+path+'electronics-communication.htm">Electronics & Communication </a> </li>\n\
+            <li><a href="'+path+'civil-engineering.htm">Civil Engineering </a> </li>\n\
+            <li><a href="'+path+'mba.htm">Master of Business Administration</a> </li>\n\
+            <li><a href="'+path+'pure-science.htm">Pure Science</a> </li>\n\
+          </ul>\n\
+        </li>\n\
+        <li style=""><a href="'+path+'placement.htm">Placement</a>\n\
+          <ul>\n\
+            <li><a href="'+path+'pdf/yearwise.pdf">2019 Placed</a></li>\n\
+            <li><a href="placement/internship.pdf">Internship 2019</a> </li>\n\
+            <li><a href="placement-circular.html">Placement Circulars</a> </li>\n\
+          </ul>            \n\
+        </li>\n\
+        <li><a href="#">Facilities  <i class="fa fa-arrow-circle-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'library.htm">Library</a></li>\n\
+            <li><a href="'+path+'hostel.htm">Hostel</a> </li>\n\
+            <li><a href="'+path+'sports.htm">Sports</a></li>\n\
+          </ul>\n\
+        </li>\n\
+        <li><a>Activities</a>\n\
+        <ul>\n\
+        <li><a href="'+path+'michprogram.html">PlatiFi AI Program</a></li>\n\
+        <li><a href="https://onlinecourses.nptel.ac.in">NPTEL Courses</a></li>\n\
+        <li><a href="'+path+'video/kalpotsav2019.mp4">Kalpotsav 2019</a></li>\n\
+        <li><a href="http://www.interlinepublishing.com/store-103/books.php?allbook=all">D-BookStore</a></li>\n\
+        </ul>\n\
+        </li>\n\
+        <li><a href="'+path+'alumni.htm">Alumni </a></li>\n\
+        <li><a href="'+path+'news.html">Press Reports</a></li>\n\
+        <li><a href="'+path+'lab.html">Laboratory</a></li>\n\
+    </ul>\n\
+    </div>\n\
+    </td>\n\
+  </tr>\n\
+    <tr style="background:lavender;height:10px;"><td></td></tr>\n\
+</table> \n\
+';
+document.write(str);    
+}
+function mainmenurp(path) {
+    var str=' \n\
+<table id="tableid" cellpadding="0" cellspacing="0" style="background:#a9952B;height: 20px;color:white;" width="100%">\n\
+    <tr>\n\
+   <td width="100%" valign="center" class="text"> \n\
+      <div id="myslidemenu" class="jqueryslidemenu">\n\
+      <ul >\n\
+        <li><a href="'+path+'index.htm" >Home</a> </li>\n\
+        <li><a href="#">About us <i class="fa fa-chevron-circle-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'about-us.html">About us</a></li> \n\
+            <li><a href="'+path+'principal-message.html">Principal Message</a></li> \n\
+            <li><a href="'+path+'management.htm">Management</a> </li> \n\
+            <li><a href="'+path+'mission-vision.html">Mission & Vision</a></li> \n\
+          </ul> \n\
+        </li>\n\
+        <li><a href="#">Academics <i class="fa fa-angle-double-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'admission.htm">Admission</a></li>\n\
+            <li><a href="'+path+'programmes.htm">Programmes</a> </li>\n\
+          </ul>\n\
+        </li>\n\
+        <li><a href="#">Departments  <i class="fa fa-arrow-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'computer-science-engineering.htm">Computer Science & Engineering</a></li>\n\
+            <li><a href="'+path+'information-science-engineering.htm">Information\n\ Science & Engineering</a> </li> \n\
+            <li><a href="'+path+'mechanical-engineering.htm">Mechanical Engineering </a></li>\n\
+            <li><a href="'+path+'electronics-communication.htm">Electronics & Communication </a> </li>\n\
+            <li><a href="'+path+'civil-engineering.htm">Civil Engineering </a> </li>\n\
+            <li><a href="'+path+'mba.htm">Master of Business Administration</a> </li>\n\
+            <li><a href="'+path+'pure-science.htm">Pure Science</a> </li>\n\
+          </ul>\n\
+        </li>\n\
+        <li><a href="#">Facilities  <i class="fa fa-arrow-circle-down" style="color:white;"></i></a> \n\
+          <ul>\n\
+            <li><a href="'+path+'library.htm">Library</a></li>\n\
+            <li><a href="'+path+'hostel.htm">Hostel</a> </li>\n\
+            <li><a href="'+path+'sports.htm">Sports</a></li>\n\
+          </ul>\n\
+        </li>\n\
+        <li><a href="'+path+'alumni.htm">Alumni </a></li>\n\
+        <li style="background:navy;color:white;"><a href="'+path+'placement.htm">Placement</a>\n\
+          <ul>\n\
+            <li><a href="'+path+'pdf/yearwise.pdf">2019 Placed</a></li>\n\
+            <li><a href="placement/internship.pdf">Internship 2019</a> </li>\n\
+            <li><a href="placement-circular.html">Placement Circulars</a> </li>\n\
+          </ul>            \n\
+        </li>\n\
+        <li><a href="'+path+'gallery.htm">Gallery</a></li>\n\
+        <li><a href="'+path+'pdf/mandatory.pdf">Mandatory Disclosure</a></li>\n\
+        <li><a href="http://www.interlinepublishing.com/store-103/books.php?allbook=all">D-BookStore</a></li>\n\
+        <li><a href="https://onlinecourses.nptel.ac.in">NPTEL Courses</a></li>\n\
+        <li><a href="'+path+'news.html">Press Reports</a></li>\n\
+        <li><a href="'+path+'Fees.html">Fee Structure 2019</a></li>\n\
+        <li><a href="'+path+'michprogram.html">PlatiFi AI Program</a></li>\n\
+        <li><a href="'+path+'circular.html">Circulars</a></li>\n\
+        <li><a href="'+path+'video.html">Campus Tour</a></li>\n\
+        <li><a href="'+path+'contact.html">Contact</a></li>\n\
+        <li><a href="'+path+'video/kalpotsav2019.mp4">Kalpotsav 2019</a></li>\n\
+    </ul>\n\
+    </div>\n\
+    </td>\n\
+  </tr>\n\
+    <tr style="background:lavender;height:10px;"><td></td></tr>\n\
+</table> \n\
+';
+document.write(str);    
+}
+function imageslider(path) {
+    var str=' \n\
+<div id="demo" class="skdslider">\n\
+<ul>\n\
+<li><a href="#"><img src="'+path+'slides/1.jpg" border="0" /></a></li>\n\
+<li><a href="#"><img src="'+path+'slides/2.jpg" border="0" /></a></li>\n\
+<li><a href="#"><img src="'+path+'slides/3.jpg" border="0" /></a></li>\n\
+<li><a href="#"><img src="'+path+'slides/4.jpg" border="0" /></a></li>\n\
+<li><a href="#"><img src="'+path+'slides/5.jpg" border="0" /></a></li>\n\
+<li><a href="#"><img src="'+path+'slides/6.jpg" border="0" /></a></li>\n\
+</ul>\n\
+</div>\n\
+';
+document.write(str);
+}
+function header(){
+    border();
+    pagetitle("");
+    notifyscroll();
+    mainmenu("");
+    companyscroll("");
+    activities("");
+//    imageslider("");
+    showSlides();
+}
+function headerlab(){
+    border();
+    pagetitle("");
+    notifyscroll();
+    mainmenu("");
+}
+function header1(){
+    border();
+    pagetitle("../");
+    notifyscroll();
+    mainmenu("../");
+    companyscroll("../");
+    showSlides();
+}
+function header2(){
+    border();
+    pagetitle("../../../");
+    notifyscroll();
+    mainmenu("../../../");
+    companyscroll("../../../");
+    showSlides();
+}
+function header3() {
+     border();
+    pagetitle("");
+    notifyscroll();
+    mainmenu("");   
+        showSlides();
+}
+function header4(){
+    var str=' \n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0"> \n\
+    <tr style="background:navy;height: 10px;"><td></td></tr> \n\
+    <tr style="background:lightblue;height: 5px;"><td></td></tr>\n\
+</table>\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0">    \n\
+    <tr>\n\
+        <td style="background-color:#28a7e9;width:1%;border-top-right-radius:140%;"> </td>\n\
+        <td height="150" width="10%"> \n\
+            <a href="index.htm">&nbsp;&nbsp;\n\
+                <img src="images/logo.png" width="125" height="130" border="0">\n\
+            </a>\n\
+        </td>\n\
+        <td valign="center" width="50%" align="left">\n\
+            <p style="text-align:center;">\n\
+                <span class="name style45">Kalpataru Institute of Technology </span><br>\n\
+                <span class="text_inside1">Approved by AICTE, New Delhi, Affiliated to VTU Belagavi,<br/> \n\
+                <span class="blink" style="color:darkmagenta;"> E&CE UG Programme is Provisionally Accredited by NBA for 2016-17,2017-18, New Delhi</span> <br>\n\
+                <span class="text_inside1">N.H 206,Tiptur-572201</span>\n\
+                </p>\n\
+        </td><td valign="center" width="10%" align="justify">&nbsp;&nbsp;\n\
+           \n\
+            <style> @-webkit-keyframes mymove \{\n\
+    50% \{color: #4b7447;\}\n\
+\}\n\
+\n\
+\@keyframes mymove \{\n\
+    50% \{color: #4b7447;\}\n\
+\}</style>\n\
+<span style="font-size:10pt;color:navy ;font-weight:bold;font-family:verdana;text-align:justify;">\n\
+<a href="admission/admission.jpg" ><img src="admission/thumb/admission.jpg" width="200" height="200"/></a></span>\n\
+        &nbsp;&nbsp;</td>\n\
+<td style="background-color:#28a7e9;width:1%;border-top-left-radius:140%;"> </td>\n\
+      </tr>\n\
+</table>\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0">\n\
+    <tr style="background:#a9952B;height: 20px;color:white;">\n\
+     <td>\n\
+         <table id="tableid" width="100%">\n\
+        <tr>\n\
+            <td width="100%" valign="center" class="text"> \n\
+              <div id="myslidemenu" class="jqueryslidemenu">\n\
+              <ul >\n\
+                <li><a href="index.htm" >Home</a> </li>\n\
+                <li><a href="#">About us <i class="fa fa-chevron-circle-down" style="color:white;"></i></a> \n\
+                  <ul>\n\
+                    <li><a href="about-us.html">About us</a></li> \n\
+            	    <li><a href="principal-message.html">Principal Message</a></li> \n\
+  		    <li><a href="management.htm">Management</a> </li> \n\
+         	    <li><a href="mission-vision.html">Mission & Vision</a></li> \n\
+                  </ul> \n\
+                       </li>            \n\
+                    <li><a href="#">Academics <i class="fa fa-angle-double-down" style="color:white;"></i></a> \n\
+                      <ul>\n\
+                        <li><a href="admission.htm">Admission</a></li>\n\
+                            <li><a href="programmes.htm">Programmes</a> </li>\n\
+                          </ul>\n\
+                        </li>\n\
+                        <li><a href="#">Departments  <i class="fa fa-arrow-down" style="color:white;"></i></a> \n\
+                          <ul>\n\
+                           <li><a href="computer-science-engineering.htm">Computer Science & Engineering</a></li>\n\
+                           <li><a href="information-science-engineering.htm">Information\n\ Science & Engineering</a> </li> \n\
+                           <li><a href="mechanical-engineering.htm">Mechanical Engineering </a></li>\n\
+                           <li><a href="electronics-communication.htm">Electronics & Communication </a> </li>\n\
+                           <li><a href="civil-engineering.htm">Civil Engineering </a> </li>\n\
+                           <li><a href="mba.htm">Master of Business Administration</a> </li>\n\
+                           <li><a href="pure-science.htm">Pure Science</a> </li>\n\
+                        </ul>\n\
+                        </li>\n\
+                    <li><a href="#">Facilities  <i class="fa fa-arrow-circle-down" style="color:white;"></i></a> \n\
+                      <ul>\n\
+                        <li><a href="library.htm">Library</a></li>\n\
+                            <li><a href="hostel.htm">Hostel</a> </li>\n\
+                            <li><a href="sports.htm">Sports & Culture</a></li>\n\
+                          </ul>\n\
+                        </li>\n\
+                        <li><a href="alumni.htm">Alumni </a></li>\n\
+                        <li><a href="placement.htm">Placement</a></li>\n\
+                        <li><a href="gallery.htm">Gallery</a></li>\n\
+                        <li><a href="downloads.htm">Mandatory Disclosure</a></li>\n\
+                        <li><a href="contact.html">Contact</a></li>\n\
+                        <li><a href="http://www.interlinepublishing.com/store-103/books.php?allbook=all">D-BookStore</a></li>\n\
+                        <li><a href="https://onlinecourses.nptel.ac.in">NPTEL Courses</a></li>\n\
+                        <li><a href="news.html">Press Reports</a></li>\n\
+                        <li><a href="Fees.html">Fee Structure 2018</a></li>\n\
+                      </ul>\n\
+    </div>\n\
+            </td>\n\
+          </tr>\n\
+        </table> \n\
+        </td>\n\
+        </tr>\n\
+    <tr style="background:lavender;height: 10px;"><td></td></tr>\n\
+</table>\n\
+  ';
+document.write(str);
+notifyscroll();
+}
+function header5(){
+    border();
+    pagetitle("");
+    notifyscroll();
+    mainmenu("");
+    companyscroll("");
+    showSlides();
+}
+function headerp(){
+    pagetitlerp("");
+    mainmenu("");
+    notifyscroll();
+    companyscroll("");
+    
+}
+function headers(){
+    border();
+    pagetitle("");
+    notifyscroll();
+    mainmenu("");
+}
+function footerrp() {
+
+   var str='\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="text" style="background-image:url(images/footer-bg.jpg);">\n\
+      <tr>\n\
+        <td valign="top">\n\
+         <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">\n\
+          <tr>\n\
+            <td height="38" valign="center" class="text">\n\
+                <table width="100%" align="center" cellpadding="3" cellspacing="1">\n\
+              <tr>\n\
+                <td width="24%" valign="top"><span class="style38">EXPLORE</span><br />\n\
+                    <br/>\n\
+                    <a href="about-us.html" class="menu">About us <br />\n\
+                    </a><a href="downloads.htm" class="menu">Mandatory Disclosure<br />\n\
+                    </a><a href="alumni.htm" class="menu">Alumni<br />\n\
+                    </a><a href="gallery.htm" class="menu">Photo Gallery <br />\n\
+                    </a><a href="contact.html" class="menu">Contact us </a></td>\n\
+                <td width="28%" valign="top">\n\
+                  <span class="style38">IMPORTANT LINKS</span><br />\n\
+                  <br />\n\
+                  <a href="antiragging.html" class="menu">Anti Ragging Committee</a><br />\n\
+                  <a href="shc.html" class="menu">Women Cell &amp; Anti Sexual  Harassment Committee </a><br />                  \n\
+                  <a href="grievance.html" class="menu">Grievance Redressal Committee</a><br />\n\
+                  <a href="caste.html" class="menu">Anti Caste Discrimination Committee</a><br />  \n\
+                  <a href="disability.html" class="menu">Disability Support Center</a><br />                    \n\
+                </td>\n\
+                <td width="27%" valign="top">\n\
+                  <span class="style38">DEPARTMENTS</span><br />\n\
+                  <br />\n\
+                  <a href="computer-science-engineering.htm" class="menu">Computer Science & Engineering</a><br />\n\
+                  <a href="information-science-engineering.htm" class="menu">Information Science & Engineering</a> <br />\n\
+                  <a href="mechanical-engineering.htm" class="menu">Mechanical Engineering </a> <br />\n\
+                  <a href="electronics-communication.htm" class="menu">Electronics & Communication </a> <br />                  \n\
+                  <a href="civil-engineering.htm" class="menu">Civil Engineering</a> <br />\n\
+                  <a href="mba.htm" class="menu">Master of Business Administration</a> <br />                 \n\
+                  <a href="pure-science.htm" class="menu">Pure Sciences </a> <br />\n\
+\n\
+                </td>\n\
+                <td width="21%" valign="top"><p class="style38">CONTACT US </p>\n\
+                  <p class="text" style="color:white;">Phone: 08134 - 251267<br />\n\
+                    Email: principal@kittiptur.ac.in<br />\n\
+                    Website: www.kittiptur.ac.in</p>\n\
+                  <p class="text">&nbsp;</p></td>\n\
+              </tr>\n\
+            </table></td>\n\
+          </tr>\n\
+          <tr>\n\
+            <td height="30" valign="center" class="text style36">&copy;  \n\
+            <span id="time"></span> Kalpataru Institute of Technology | All Right Reserved </td>\n\
+          </tr>\n\
+          \n\
+          <tr>\n\
+            <td width="397" height="14" valign="center" class="text">\n\
+                <div align="left"><span class="style38">Designed &amp; Maintained by</span> \n\
+                    <a href="http://kittiptur.ac.in" target="_blank" style="text-decoration:none;color:white;">KIT Web Team</a> </div></td>\n\
+          </tr>\n\
+             </table>\n\
+        </td>\n\
+      </tr>\
+</table>\n\
+\n\             ';
+document.write(str);
+notifyscroll();
+}
+function footer() {
+   var str='\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="text" style="background-image:url(images/footer-bg.jpg);">\n\
+      <tr>\n\
+        <td valign="top">\n\
+         <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">\n\
+          <tr>\n\
+            <td height="38" valign="center" class="text">\n\
+                <table width="100%" align="center" cellpadding="3" cellspacing="1">\n\
+              <tr>\n\
+                <td width="24%" valign="top"><span class="style38">EXPLORE</span><br />\n\
+                    <br/>\n\
+                    <a href="about-us.html" class="menu">About us <br />\n\
+                    </a><a href="downloads.htm" class="menu">Mandatory Disclosure<br />\n\
+                    </a><a href="alumni.htm" class="menu">Alumni<br />\n\
+                    </a><a href="gallery.htm" class="menu">Photo Gallery <br />\n\
+                    </a><a href="contact.html" class="menu">Contact us </a></td>\n\
+                <td width="28%" valign="top">\n\
+                  <span class="style38">IMPORTANT LINKS</span><br />\n\
+                  <br />\n\
+                  <a href="antiragging.html" class="menu">Anti Ragging Committee</a><br />\n\
+                  <a href="shc.html" class="menu">Women Cell &amp; Anti Sexual  Harassment Committee </a><br />                  \n\
+                  <a href="grievance.html" class="menu">Grievance Redressal Committee</a><br />\n\
+                  <a href="caste.html" class="menu">Anti Caste Discrimination Committee</a><br />  \n\
+                  <a href="disability.html" class="menu">Disability Support Center</a><br />                    \n\
+                </td>\n\
+                <td width="27%" valign="top">\n\
+                  <span class="style38">DEPARTMENTS</span><br />\n\
+                  <br />\n\
+                  <a href="computer-science-engineering.htm" class="menu">Computer Science & Engineering</a><br />\n\
+                  <a href="information-science-engineering.htm" class="menu">Information Science & Engineering</a> <br />\n\
+                  <a href="mechanical-engineering.htm" class="menu">Mechanical Engineering </a> <br />\n\
+                  <a href="electronics-communication.htm" class="menu">Electronics & Communication </a> <br />                  \n\
+                  <a href="civil-engineering.htm" class="menu">Civil Engineering</a> <br />\n\
+                  <a href="mba.htm" class="menu">Master of Business Administration</a> <br />                 \n\
+                  <a href="pure-science.htm" class="menu">Pure Sciences </a> <br />\n\
+\n\
+                </td>\n\
+                <td width="21%" valign="top"><p class="style38">CONTACT US </p>\n\
+                  <p class="text" style="color:white;">Phone: 08134 - 251267<br />\n\
+                    Email: principal@kittiptur.ac.in<br />\n\
+                    Website: www.kittiptur.ac.in</p>\n\
+                  <p class="text">&nbsp;</p></td>\n\
+              </tr>\n\
+            </table></td>\n\
+          </tr>\n\
+          <tr>\n\
+            <td height="30" valign="center" class="text style36">&copy;  \n\
+            <span id="time"></span> Kalpataru Institute of Technology | All Right Reserved </td>\n\
+          </tr>\n\
+          \n\
+          <tr>\n\
+            <td width="397" height="14" valign="center" class="text">\n\
+                <div align="left"><span class="style38">Designed &amp; Maintained by</span> \n\
+                    <a href="http://kittiptur.ac.in" target="_blank" style="text-decoration:none;color:white;">KIT Web Team</a> </div></td>\n\
+          </tr>\n\
+             </table>\n\
+        </td>\n\
+      </tr>\
+</table>\n\
+\n\             ';
+document.write(str);
+}
+function footer1() {
+   var str='\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="text" style="background-image:url(../images/footer-bg.jpg);">\n\
+      <tr>\n\
+        <td valign="top">\n\
+         <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center">\n\
+          <tr>\n\
+            <td height="38" valign="center" class="text style36">\n\
+                <table width="100%" align="center" cellpadding="3" cellspacing="1">\n\
+              <tr>\n\
+                <td width="24%" valign="top"><span class="style38">EXPLORE</span><br />\n\
+                    <br/>\n\
+                    <a href="../about-us.html" class="menu">About us <br />\n\
+                    </a><a href="../downloads.htm" class="menu">Mandatory Disclosure<br />\n\
+                    </a><a href="../alumni.htm" class="menu">Alumni<br />\n\
+                    </a><a href="../gallery.htm" class="menu">Photo Gallery <br />\n\
+                    </a><a href="../contact.html" class="menu">Contact us </a></td>\n\
+                <td width="28%" valign="top">\n\
+                  <span class="style38">IMPORTANT LINKS</span><br />\n\
+                  <br />\n\
+                  <a href="../antiragging.html" class="menu">Anti Ragging Committee</a><br />\n\
+                  <a href="../shc.html" class="menu">Women Cell &amp; Anti Sexual  Harassment Committee </a><br />                  \n\
+                  <a href="../grievance.html" class="menu">Grievance Redressal Committee</a><br />\n\
+                  <a href="../caste.html" class="menu">Anti Caste Discrimination Committee</a><br />  \n\
+                  <a href="../disability.html" class="menu">Disability Support Center</a><br />                    \n\
+                </td>\n\
+                <td width="27%" valign="top">\n\
+                  <span class="style38">DEPARTMENTS</span><br />\n\
+                  <br />\n\
+                  <a href="../computer-science-engineering.htm" class="menu">Computer Science & Engineering</a><br />\n\
+                  <a href="../information-science-engineering.htm" class="menu">Information Science & Engineering</a> <br />\n\
+                  <a href="../mechanical-engineering.htm" class="menu">Mechanical Engineering </a> <br />\n\
+                  <a href="../electronics-communication.htm" class="menu">Electronics & Communication </a> <br />                  \n\
+                  <a href="../civil-engineering.htm" class="menu">Civil Engineering</a> <br />\n\
+                  <a href="../mba.htm" class="menu">Master of Business Administration</a> <br />                 \n\
+                  <a href="../pure-science.htm" class="menu">Pure Sciences </a> <br />\n\
+\n\
+                </td>\n\
+                <td width="21%" valign="top"><p class="style38">CONTACT US </p>\n\
+                  <p class="text">P: 08134 - 251267<br />\n\
+                    E: principal@kittiptur.ac.in<br />\n\
+                    W: www.kittiptur.ac.in</p>\n\
+                  <p class="text">&nbsp;</p></td>\n\
+              </tr>\n\
+            </table></td>\n\
+          </tr>\n\
+          <tr>\n\
+            <td height="30" valign="center" class="text style36">&copy;  <span id="time"></span> Kalpataru Institute of Technology | All Right Reserved </td>\n\
+          </tr>\n\
+          \n\
+          <tr>\n\
+            <td width="397" height="14" valign="center" class="text">\n\
+                <div align="left"><span class="style36">Designed &amp; Maintained by</span> \n\
+                    <a href="http://kittiptur.ac.in" target="_blank" class="menu1">KIT Web Team</a> </div></td>\n\
+          </tr>\n\
+             </table>\n\
+        </td>\n\
+      </tr>\n\
+</table>\n\
+\n\             ';
+document.write(str);
+}
+function footer2() {
+   var str='\n\
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="text" style="background-image:url(../../../images/footer-bg.jpg);">\n\
+      <tr>\n\
+        <td valign="top">\n\
+         <table width="95%" border="0" cellpadding="0" cellspacing="0" align="center">\n\
+          <tr>\n\
+            <td height="38" valign="center" class="text style36">\n\
+                <table width="100%" align="center" cellpadding="3" cellspacing="1">\n\
+              <tr>\n\
+                <td width="24%" valign="top"><span class="style38">EXPLORE</span><br />\n\
+                    <br/>\n\
+                    <a href="../../../about-us.html" class="menu">About us <br />\n\
+                    </a><a href="../../../downloads.htm" class="menu">Mandatory Disclosure<br />\n\
+                    </a><a href="../../../alumni.htm" class="menu">Alumni<br />\n\
+                    </a><a href="../../../gallery.htm" class="menu">Photo Gallery <br />\n\
+                    </a><a href="../../../contact.html" class="menu">Contact us </a></td>\n\
+                <td width="28%" valign="top">\n\
+                  <span class="style38">IMPORTANT LINKS</span><br />\n\
+                  <br />\n\
+                  <a href="../../../antiragging.html" class="menu">Anti Ragging Committee</a><br />\n\
+                  <a href="../../../shc.html" class="menu">Women Cell &amp; Anti Sexual  Harassment Committee </a><br />                  \n\
+                  <a href="../../../grievance.html" class="menu">Grievance Redressal Committee</a><br />\n\
+                  <a href="../../../caste.html" class="menu">Anti Caste Discrimination Committee</a><br />  \n\
+                  <a href="../../../disability.html" class="menu">Disability Support Center</a><br />                    \n\
+                </td>\n\
+                <td width="27%" valign="top">\n\
+                  <span class="style38">DEPARTMENTS</span><br />\n\
+                  <br />\n\
+                  <a href="../../../computer-science-engineering.htm" class="menu">Computer Science & Engineering</a><br />\n\
+                  <a href="../../../information-science-engineering.htm" class="menu">Information Science & Engineering</a> <br />\n\
+                  <a href="../../../mechanical-engineering.htm" class="menu">Mechanical Engineering </a> <br />\n\
+                  <a href="../../../electronics-communication.htm" class="menu">Electronics & Communication </a> <br />                  \n\
+                  <a href="../../../civil-engineering.htm" class="menu">Civil Engineering</a> <br />\n\
+                  <a href="../../../mba.htm" class="menu">Master of Business Administration</a> <br />                 \n\
+                  <a href="../../../pure-science.htm" class="menu">Pure Sciences </a> <br />\n\
+\n\
+                </td>\n\
+                <td width="21%" valign="top"><p class="style38">CONTACT US </p>\n\
+                  <p class="text">P: 08134 - 251267<br />\n\
+                    E: principal@kittiptur.ac.in<br />\n\
+                    W: www.kittiptur.ac.in</p>\n\
+                  <p class="text">&nbsp;</p></td>\n\
+              </tr>\n\
+            </table></td>\n\
+          </tr>\n\
+          <tr>\n\
+            <td height="30" valign="center" class="text style36">&copy;  <span id="time"></span> Kalpataru Institute of Technology | All Right Reserved </td>\n\
+          </tr>\n\
+          \n\
+          <tr>\n\
+            <td width="397" height="14" valign="center" class="text">\n\
+                <div align="left"><span class="style36">Designed &amp; Maintained by</span> \n\
+                    <a href="http://kittiptur.ac.in" target="_blank" class="menu1">KIT Web Team</a> </div></td>\n\
+          </tr>\n\
+             </table>\n\
+        </td>\n\
+      </tr>\n\
+</table>\n\
+\n\             ';
+document.write(str);
+}
